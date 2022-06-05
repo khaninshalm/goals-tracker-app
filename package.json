@@ -1,0 +1,21 @@
+{
+  "name": "goals-tracker-app",
+  "version": "1.0.0",
+  "description": "Goalsetter app made in MERN technologies",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "server": "nodemon server/app.js"
+  },
+  "author": "Inshal Khan",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
